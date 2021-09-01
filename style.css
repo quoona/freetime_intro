@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "VT323", monospace;
+}
+
+.landing {
+  min-height: 100vh;
+  background: url("./hero.jpg");
+  background-size: cover;
+  padding: 0rem 5rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links li {
+  padding-left: 10rem;
+  font-size: 1.2rem;
+}
+
+#logo {
+  font-size: 2rem;
+  font-family: "VT323", monospace;
+  font-weight: lighter;
+}
+
+.big-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  font-size: 5rem;
+  font-weight: lighter;
+  font-family: "VT323", monospace;
+  color: #26292b;
+}
+.intro {
+  background: #93b5c6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  background: #93b5c6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+.intro-text {
+  color: #c9ccd5;
+  font-family: "VT323", monospace;
+  font-size: 2rem;
+}
+
+.hide {
+  background: #93b5c6;
+
+  /* background: skyblue; */
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+#player {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.clickme {
+  position: absolute;
+  top: 20%;
+  left: 59%;
+}
+
+#bubblechat {
+  opacity: 65%;
+  width: 100px;
+  height: 70px;
+}
+
+.tree {
+  width: 100px;
+  height: 130px;
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  left: 41%;
+}
+
+.house {
+  width: 110px;
+  height: 130px;
+
+  opacity: 20%;
+  cursor: pointer;
+  position: absolute;
+  top: 68%;
+  left: 50%;
+}

@@ -1,0 +1,65 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pixel intro</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="landing">
+        <nav>
+          <!-- <h1 id="logo">nomnomlazy</h1> -->
+          <ul class="nav-links">
+            <!-- <li>Home</li>
+            <li>Contact</li>
+            <li>About</li> -->
+          </ul>
+        </nav>
+        <!-- <div class="clickme"><p>clickme</p></div> -->
+        <div class="clickme">
+          <img class="psb" alt="img" id="bubblechat" src="./psb.png" />
+        </div>
+        <div class="tree" onclick="playmusictree();"></div>
+        <div class="house" onclick="playmusichouse();"></div>
+        <h2 class="big-text">
+          peaceful
+          <a onclick="play();"
+            ><img
+              id="player"
+              src="https://img.icons8.com/material-outlined/48/000000/pixel-cat.png"
+          /></a>
+        </h2>
+      </section>
+    </main>
+    <div class="intro">
+      <div class="intro-text">
+        <h1 class="hide">
+          <span class="text">heyy </span>
+        </h1>
+        <h1 class="hide">
+          <span class="text">hope you're having </span>
+        </h1>
+        <h1 class="hide">
+          <span class="text">a great day :)</span>
+        </h1>
+      </div>
+    </div>
+    <div class="slider"></div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"
+      integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
